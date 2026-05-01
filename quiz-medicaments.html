@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz sur les médicaments</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- style simple pour le quiz, tu peux créer quiz-medicaments.css ou utiliser le même style.css -->
+  <link rel="stylesheet" href="./assets/style.css">
+  <script defer src="./assets/quiz-medicaments.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="header-main">
+        <h1>Quiz sur les médicaments</h1>
+        <p>Questions aléatoires, score et explications interactives</p>
+      </div>
+      <nav>
+        <a href="./portfolio-hamouda.html">Retour au portfolio</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page">
+    <main>
+
+      <section id="info">
+        <h2>Principe du quiz</h2>
+        <p>
+          Ce quiz permet de tester vos connaissances sur le bon usage des médicaments.
+          Les questions sont posées aléatoirement, un point est attribué à chaque bonne
+          réponse et une explication s’affiche après chaque question.
+        </p>
+      </section>
+
+      <section id="quiz">
+        <h2>Quiz</h2>
+
+        <article>
+          <h3 id="question-title">Question</h3>
+          <p id="question-text"></p>
+
+          <div id="answers-container">
+            <!-- Les réponses seront ajoutées ici en JavaScript -->
+          </div>
+
+          <p id="feedback"></p>
+
+          <p>
+            Score : <span id="score">0</span> /
+            <span id="total">0</span>
+          </p>
+
+          <button id="next-question">Question suivante</button>
+        </article>
+      </section>
+
+    </main>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <p>© 2026 – Hamouda Poussyina</p>
+    </div>
+  </footer>
+<script src="./assets/quiz.js"></script>
+</body>
+</html>
