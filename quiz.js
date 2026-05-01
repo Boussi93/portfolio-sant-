@@ -37,8 +37,8 @@ const questions = [
       "La notice explique comment utiliser le médicament, les précautions et les effets indésirables possibles."
   },
   {
-    titre: "A quoi sert le paracétamol ?",
-    question: "Que faire en cas d'oubli de prise d'un médicament ?",
+    titre: "Paracétamol",
+    question: "A quoi sert le paracétamol ?",
     reponses: [
       "Soigner une infection",
       "Diminuer la douleur et la fièvre",
