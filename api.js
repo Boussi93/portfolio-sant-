@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var sousCategorie = document.getElementById("sousCategorie").value;
     var publicCible = document.getElementById("public").value;
 
-    var url = "https://portfolio-sant.onrender.com";
+    var url = "https://portfolio-sant.onrender.com/api/recommandations";
     var params = [];
 
     if (categorie !== "") {
