@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recommandations de santé</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Projet - Recommandations de santé</h1>
+      <nav>
+        <a href="portfolio-hamouda.html">Retour au portfolio</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <section class="card">
+      <h2>Rechercher des recommandations</h2>
+      <p>
+        Cette page interroge une API réalisée avec FastAPI pour afficher des
+        recommandations issues du PNNS selon plusieurs filtres.
+      </p>
+
+      <div class="form-grid">
+        <div>
+          <label for="categorie">Catégorie</label>
+          <select id="categorie">
+            <option value="">Toutes</option>
+            <option value="Alimentation">Alimentation</option>
+            <option value="Activité physique">Activité physique</option>
+            <option value="Nutri-Score">Nutri-Score</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="sousCategorie">Sous-catégorie</label>
+          <select id="sousCategorie">
+            <option value="">Toutes</option>
+            <option value="Fruits et légumes">Fruits et légumes</option>
+            <option value="Les légumes secs">Légumes secs</option>
+            <option value="Les fruits à coques non salés">Fruits à coques non salés</option>
+            <option value="Les poissons gras et maigres">Poissons gras et maigres</option>
+            <option value="Les matières grasses">Matières grasses</option>
+            <option value="Les produits laitiers">Produits laitiers</option>
+            <option value="Les aliments de saison">Aliments de saison</option>
+            <option value="La charcuterie">Charcuterie</option>
+            <option value="Le sel">Sel</option>
+            <option value="Boissons sucrées">Boissons sucrées</option>
+            <option value="Alcool">Alcool</option>
+            <option value="Viande">Viande</option>
+            <option value="Bouger">Bouger</option>
+            <option value="Sédentarité">Sédentarité</option>
+            <option value="D et E">Nutri-Score D et E</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="public">Public</label>
+          <select id="public">
+            <option value="">Tous</option>
+            <option value="Adultes">Adultes</option>
+            <option value="Enfants">Enfants</option>
+            <option value="Tous">Tous publics</option>
+          </select>
+        </div>
+      </div>
+
+      <button id="btnRecherche" class="btn">Lancer la recherche</button>
+      <p id="message" class="message"></p>
+    </section>
+
+    <section>
+      <div id="resultats" class="resultats"></div>
+    </section>
+  </main>
+
+  <script src="api.js"></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "categorie": "Alimentation",
+    "sousCategorie": "Fruits et légumes",
+    "public": "Adultes",
+    "titre": "Consommer des fruits et légumes",
+    "recommandation": "Au moins 5 fruits et légumes par jour",
+    "source": "Manger Bouger / PNNS"
+  },
+  {
+    "id": 2,
+    "categorie": "Alimentation",
+    "sousCategorie": "Fruits et légumes",
+    "public": "Enfants",
+    "titre": "Consommer des fruits et légumes",
+    "recommandation": "Habituez les enfants à manger des fruits et légumes à chaque repas",
+    "source": "Manger Bouger / PNNS"
+  },
+  {
+    "id": 3,
+    "categorie": "Alimentation",
+    "sousCategorie": "Les légumes secs",
+    "public": "Tous",
+    "titre": "Consommer des légumes secs",
+    "recommandation": "Ils sont naturellement riches en fibres et contiennent des protéines végétales",
+    "source": "Manger Bouger / PNNS"
+  },
+  {
+    "id": 4,
+    "categorie": "Alimentation",
+    "sousCategorie": "Les fruits à coques non salés",
+    "public": "Enfants",
+    "titre": "Consommer des fruits à coque",
+    "recommandation": "Avant les 6 ans de votre enfant, ne les donnez pas entiers en raison du risque de fausse route et d’étouffement",
+    "source": "Manger Bouger / PNNS"
+  },
+  {
+    "id": 5,
+    "categorie": "Alimentation",
+    "sousCategorie": "Les poissons gras et maigres",
+    "public": "Adultes",
+    "titre": "Consommer du poisson",
+    "recommandation": "Il apporte des protéines, du fer et est riche en Oméga-3.",
+    "source": "Manger Bouger / PNNS"
+  },
+  {
+    "id": 6,
+    "categorie": "Alimentation",
+    "sousCategorie": "Les poissons gras et maigres",
+    "public": "Enfants",
+    "titre": "Consommer du poisson",
+    "recommandation": "Pour les enfants jusqu’à 6 ans, ne pas donner de coquillages crus ou de poissons crus",
+    "source": "Manger Bouger / PNNS"
+  },
+  {
+    "id": 7,
+    "categorie": "Alimentation",
+    "sousCategorie": "Les matières grasses",
+    "public": "Tous",
+    "titre": "Les huiles",
+    "recommandation": "Il faut les consommer avec discernement, en fonction de leur composition en acides gras.",
+    "source": "Manger Bouger / PNNS"
+  },
+  {
+    "id": 8,
+    "categorie": "Alimentation",
+    "sousCategorie": "Les produits laitiers",
+    "public": "Enfants",
+    "titre": "Consommer les produits laitiers",
+    "recommandation": "Les enfants de moins de 5 ans ne doivent pas consommer de lait cru ni de fromages au lait cru, en raison des risques infectieux.",
+    "source": "Manger Bouger / PNNS"
+  },
+  {
+    "id": 9,
+    "categorie": "Alimentation",
+    "sousCategorie": "Les produits laitiers",
+    "public": "Tous",
+    "titre": "Consommer les produits laitiers",
+    "recommandation": "Les produits laitiers apportent du calcium essentiel à la formation et à la solidité des os et des dents.",
+    "source": "Manger Bouger / PNNS"
+  },
+  {
+    "id": 10,
+    "categorie": "Alimentation",
+    "sousCategorie": "Les aliments de saison",
+    "public": "Tous",
+    "titre": "Aliments locaux et de saison",
+    "recommandation": "Privilégier des aliments locaux et de saison.",
+    "source": "Manger Bouger / PNNS"
+  },
+  {
+    "id": 11,
+    "categorie": "Alimentation",
+    "sousCategorie": "La charcuterie",
+    "public": "Adultes",
+    "titre": "Consommer de la charcuterie",
+    "recommandation": "Limiter la charcuterie à 150 g par semaine.",
+    "source": "Manger Bouger / PNNS"
+  },
+  {
+    "id": 12,
+    "categorie": "Alimentation",
+    "sousCategorie": "La charcuterie",
+    "public": "Enfants",
+    "titre": "Consommer de la charcuterie",
+    "recommandation": "En dehors du jambon blanc ou de volaille de temps en temps, la charcuterie ne doit être consommée qu’exceptionnellement.",
+    "source": "Manger Bouger / PNNS"
+  },
+  {
+    "id": 13,
+    "categorie": "Alimentation",
+    "sousCategorie": "Le sel",
+    "public": "Adultes",
+    "titre": "Les produits salés",
+    "recommandation": "Il est recommandé de ne pas consommer plus de 5 g de sel par jour.",
+    "source": "Manger Bouger / PNNS"
+  },
+  {
+    "id": 14,
+    "categorie": "Alimentation",
+    "sousCategorie": "Boissons sucrées",
+    "public": "Tous",
+    "titre": "Produits ultra-transformés",
+    "recommandation": "Limiter les boissons sucrées, les aliments gras, sucrés, salés et ultra-transformés.",
+    "source": "Manger Bouger / PNNS"
+  },
+  {
+    "id": 15,
+    "categorie": "Alimentation",
+    "sousCategorie": "Alcool",
+    "public": "Adultes",
+    "titre": "Alcool",
+    "recommandation": "L’alcool : maximum 2 verres par jour et pas tous les jours.",
+    "source": "Manger Bouger / PNNS"
+  },
+  {
+    "id": 16,
+    "categorie": "Alimentation",
+    "sousCategorie": "Viande",
+    "public": "Adultes",
+    "titre": "Protéines",
+    "recommandation": "Privilégier la volaille et limiter les autres viandes (porc, bœuf, veau, mouton, agneau, abats) à 500 g par semaine.",
+    "source": "Manger Bouger / PNNS"
+  },
+  {
+    "id": 17,
+    "categorie": "Activité physique",
+    "sousCategorie": "Bouger",
+    "public": "Adultes",
+    "titre": "Activité physique dynamique",
+    "recommandation": "Au moins 30 minutes d’activités physiques dynamiques par jour.",
+    "source": "Manger Bouger / PNNS"
+  },
+  {
+    "id": 18,
+    "categorie": "Activité physique",
+    "sousCategorie": "Bouger",
+    "public": "Enfants",
+    "titre": "Activité physique chez l’enfant",
+    "recommandation": "Encourager les jeux actifs et limiter le temps passé devant les écrans.",
+    "source": "Manger Bouger / PNNS"
+  },
+  {
+    "id": 19,
+    "categorie": "Activité physique",
+    "sousCategorie": "Sédentarité",
+    "public": "Adultes",
+    "titre": "Réduire la sédentarité",
+    "recommandation": "Ne restez pas assis trop longtemps, prenez le temps de marcher un peu toutes les 2 heures.",
+    "source": "Manger Bouger / PNNS"
+  },
+  {
+    "id": 20,
+    "categorie": "Nutri-Score",
+    "sousCategorie": "D et E",
+    "public": "Adultes",
+    "titre": "Qualité des produits",
+    "recommandation": "Réduire les produits avec un Nutri-Score D et E.",
+    "source": "Manger Bouger / PNNS"
+  }
+]
