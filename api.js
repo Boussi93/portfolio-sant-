@@ -14,7 +14,9 @@ document.addEventListener("DOMContentLoaded", function () {
     var sousCategorie = document.getElementById("sousCategorie").value;
     var publicCible = document.getElementById("public").value;
 
+    // URL de ton API FastAPI sur Render
     var url = "https://portfolio-sant.onrender.com/api/recommandations";
+
     var params = [];
 
     if (categorie !== "") {
@@ -31,13 +33,13 @@ document.addEventListener("DOMContentLoaded", function () {
       url = url + "?" + params.join("&");
     }
 
-    // Message de chargement
     message.textContent = "Chargement des recommandations...";
     message.style.color = "#0f3d5e";
     zoneResultats.innerHTML = "";
 
     try {
       var response = await fetch(url);
+
       if (!response.ok) {
         throw new Error("Erreur HTTP : " + response.status);
       }
